@@ -6,9 +6,10 @@ import (
 )
 
 type todo struct {
-	Id   string
-	Item string
-	Date string
+	Id     string
+	Item   string
+	Date   string
+	Status string
 }
 
 func getTodos() (todos []todo) {
